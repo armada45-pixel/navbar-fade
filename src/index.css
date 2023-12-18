@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./assets/bootstrap.min.css";
+@import "./assets/plugins.css";
+@import "./assets/style.css";
+
+html {
+  font-family: "Prompt", sans-serif;
+}
+
+html * {
+  @apply capitalize;
+}
